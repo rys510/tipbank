@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>About</title>
+</head>
+<body id="shop">
+  
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="index.php"><h2>tipbank</h2></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="serch.html">Serch</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header終わり -->
+  
+  <!-- wrap始まり -->
+  <div id="wrap">
+    <div class="content clearfix">
+      <h1>Shop info</h1>
+      <div class="flex">
+        <div class="shop-box">
+          <h2>ワインバー</h2>
+          <h3>-カテゴリ-</h3>
+          <h3>バー</h3>
+          <p>エリア 中央区<br>営業時間 19:00 - 24:00</p>
+          <form class="tip-send" action="result.php"  method="POST">
+            <input type="number" size="10" name="tip" class="tip-input" required>
+            <button type="submit" name="shopname" value="ワインバー">チップを送る</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- wrap終わり -->
+  
+  <!-- footer始まり -->
+  <footer>
+    <small>(C)2021 Ryusei Yamamoto</small>
+  </footer>
+  <!-- footer終わり -->
+  
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>About</title>
+</head>
+<body id="shop">
+  
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="index.php"><h2>tipbank</h2></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="serch.html">Serch</a></li>
+        <li><a href="join.php">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header終わり -->
+  
+  <!-- wrap始まり -->
+  <div id="wrap">
+    <div class="content clearfix">
+      <h1>Shop info</h1>
+      <div class="flex">
+        <div class="shop-box">
+          <h2>喫茶店</h2>
+          <h3>-カテゴリ-</h3>
+          <h3>カフェ</h3>
+          <p>エリア 東区<br>営業時間 08:00 - 17:00</p>
+          <form class="tip-send" action="result.php" method="POST">
+            <input type="number" size="10" name="tip" class="chip-input" required>
+            <button type="submit" name="shopname" value="喫茶店">チップを送る</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
